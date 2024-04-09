@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 28px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+
+#reader__dashboard {
+    width: auto !important;
+}
+
+img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+img[alt="Info icon"] {
+    display: none !important;
+}
+
+div#reader__dashboard_section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+}
+
+#reader {
+    min-width: 400px;
+    max-width: 800px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 500px;
+    border: none !important;
+}
+
+span#html5-qrcode-anchor-scan-type-change {
+    padding: 20px;
+    background: tomato;
+    color: white;
+    width: 100% !important;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+
+button {
+    padding: 20px;
+    font-size: 28px;
+    border: 2px solid tomato;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+button:hover, span#html5-qrcode-anchor-scan-type-change:hover {
+    border: 2px solid tomato;
+    background-color: white;
+    color: tomato;
+    transition: all ease 0.3s;
+}
+
+canvas#qr-canvas-visible {
+    display: none !important;
+}
+
+#image {
+    display: none;
+}
+
+.copyright {
+    color: #9d9d9d;
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.copyright > p {
+    font-size: 12px;
+    margin-top: 5px;
+}
